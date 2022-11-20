@@ -1,0 +1,6 @@
+led.c:11:6:ledInit	8	static
+led.c:19:6:blinkLedRed	8	static
+led.c:22:6:blinkLedYellow	8	static
+led.c:25:6:blinkLedGreen	8	static
+led.c:28:6:blinkLedBlue	8	static
+led.c:31:6:blinkLedWhite	8	static

@@ -1,0 +1,7 @@
+main.c:47:5:convertToMilSecs	16	static
+main.c:73:5:main	16	static
+main.c:125:6:SystemClock_Config	72	static
+main.c:161:13:MX_TIM2_Init	32	static
+main.c:206:13:MX_GPIO_Init	32	static
+main.c:230:6:HAL_TIM_PeriodElapsedCallback	16	static
+main.c:240:6:Error_Handler	4	static,ignoring_inline_asm
