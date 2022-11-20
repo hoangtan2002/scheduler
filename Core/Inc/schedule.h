@@ -19,6 +19,7 @@
 #define ERROR_I2C_WRITE_BYTE_AT24C64 8
 #define ERROR_SCH_CANNOT_DELETE_TASK 9
 #define SCH_MAX_TASKS 40
+#define ONE_SHOT_TASK 0
 
 void SCH_Init(void);
 uint32_t SCH_Add_Task ( void (*pFunction)() ,

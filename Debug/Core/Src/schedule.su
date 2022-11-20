@@ -1,7 +1,8 @@
-schedule.c:30:6:SCH_Sort_Tasks	48	static
-schedule.c:48:6:SCH_Init	4	static
-schedule.c:52:14:SCH_Report	4	static
-schedule.c:56:9:SCH_Delete_Task	32	static
-schedule.c:71:10:SCH_Add_Task	32	static
-schedule.c:86:6:SCH_Dispatch_Tasks	40	static
-schedule.c:105:6:SCH_Update	4	static
+schedule.c:30:6:SCH_Init	4	static
+schedule.c:34:14:SCH_Report	4	static
+schedule.c:38:8:emptyTask	48	static
+schedule.c:48:6:SCH_shift	56	static
+schedule.c:55:10:SCH_Add_Task	56	static
+schedule.c:82:9:SCH_Delete_Task	56	static
+schedule.c:95:6:SCH_Dispatch_Tasks	8	static
+schedule.c:109:6:SCH_Update	4	static

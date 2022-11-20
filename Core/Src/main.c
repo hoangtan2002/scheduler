@@ -98,12 +98,12 @@ int main(void)
   /* USER CODE BEGIN 2 */
   HAL_TIM_Base_Start_IT(&htim2);
   SCH_Init();
-  SCH_Add_Task(ledInit, 10, 0);
-  SCH_Add_Task(blinkLedWhite, convertToMilSecs(1.25)/TIMER_INTERVAL, convertToMilSecs(2.5)/TIMER_INTERVAL);
-  SCH_Add_Task(blinkLedRed, convertToMilSecs(0.25)/TIMER_INTERVAL, convertToMilSecs(0.5)/TIMER_INTERVAL);
-  SCH_Add_Task(blinkLedYellow, convertToMilSecs(0.5)/TIMER_INTERVAL, convertToMilSecs(1)/TIMER_INTERVAL);
-  SCH_Add_Task(blinkLedGreen, convertToMilSecs(0.75)/TIMER_INTERVAL, convertToMilSecs(1.5)/TIMER_INTERVAL);
-  SCH_Add_Task(blinkLedBlue, convertToMilSecs(1.0)/TIMER_INTERVAL, convertToMilSecs(2.0)/TIMER_INTERVAL);
+  SCH_Add_Task(ledInit,0 , ONE_SHOT_TASK);
+  SCH_Add_Task(blinkLedWhite, 0, convertToMilSecs(2.5)/TIMER_INTERVAL);
+  SCH_Add_Task(blinkLedRed,0, convertToMilSecs(0.5)/TIMER_INTERVAL);
+  SCH_Add_Task(blinkLedYellow, 0, convertToMilSecs(1)/TIMER_INTERVAL);
+  SCH_Add_Task(blinkLedGreen,0, convertToMilSecs(1.5)/TIMER_INTERVAL);
+  SCH_Add_Task(blinkLedBlue, 0, convertToMilSecs(2.0)/TIMER_INTERVAL);
   /* USER CODE END 2 */
 
   /* Infinite loop */
